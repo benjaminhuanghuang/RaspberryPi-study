@@ -1,0 +1,14 @@
+
+wpa_supplicant.conf
+
+```text
+country=US
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+    scan_ssid=1
+    ssid="another wifi
+    network"
+    psk="your_pas
+}
+```
